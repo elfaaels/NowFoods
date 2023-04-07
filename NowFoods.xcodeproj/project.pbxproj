@@ -1,0 +1,588 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		BB1C065929DFFF41002FF4CD /* NowFoodsApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB1C065829DFFF41002FF4CD /* NowFoodsApp.swift */; };
+		BB1C065B29DFFF41002FF4CD /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB1C065A29DFFF41002FF4CD /* ContentView.swift */; };
+		BB1C065D29DFFF42002FF4CD /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BB1C065C29DFFF42002FF4CD /* Assets.xcassets */; };
+		BB1C066029DFFF42002FF4CD /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BB1C065F29DFFF42002FF4CD /* Preview Assets.xcassets */; };
+		BB1C066A29DFFF42002FF4CD /* NowFoodsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB1C066929DFFF42002FF4CD /* NowFoodsTests.swift */; };
+		BB1C067429DFFF42002FF4CD /* NowFoodsUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB1C067329DFFF42002FF4CD /* NowFoodsUITests.swift */; };
+		BB1C067629DFFF42002FF4CD /* NowFoodsUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB1C067529DFFF42002FF4CD /* NowFoodsUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		BB1C066629DFFF42002FF4CD /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BB1C064D29DFFF41002FF4CD /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = BB1C065429DFFF41002FF4CD;
+			remoteInfo = NowFoods;
+		};
+		BB1C067029DFFF42002FF4CD /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BB1C064D29DFFF41002FF4CD /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = BB1C065429DFFF41002FF4CD;
+			remoteInfo = NowFoods;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		BB1C065529DFFF41002FF4CD /* NowFoods.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = NowFoods.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		BB1C065829DFFF41002FF4CD /* NowFoodsApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NowFoodsApp.swift; sourceTree = "<group>"; };
+		BB1C065A29DFFF41002FF4CD /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		BB1C065C29DFFF42002FF4CD /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		BB1C065F29DFFF42002FF4CD /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		BB1C066529DFFF42002FF4CD /* NowFoodsTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = NowFoodsTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		BB1C066929DFFF42002FF4CD /* NowFoodsTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NowFoodsTests.swift; sourceTree = "<group>"; };
+		BB1C066F29DFFF42002FF4CD /* NowFoodsUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = NowFoodsUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		BB1C067329DFFF42002FF4CD /* NowFoodsUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NowFoodsUITests.swift; sourceTree = "<group>"; };
+		BB1C067529DFFF42002FF4CD /* NowFoodsUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NowFoodsUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		BB1C065229DFFF41002FF4CD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BB1C066229DFFF42002FF4CD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BB1C066C29DFFF42002FF4CD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		BB1C064C29DFFF41002FF4CD = {
+			isa = PBXGroup;
+			children = (
+				BB1C065729DFFF41002FF4CD /* NowFoods */,
+				BB1C066829DFFF42002FF4CD /* NowFoodsTests */,
+				BB1C067229DFFF42002FF4CD /* NowFoodsUITests */,
+				BB1C065629DFFF41002FF4CD /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		BB1C065629DFFF41002FF4CD /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				BB1C065529DFFF41002FF4CD /* NowFoods.app */,
+				BB1C066529DFFF42002FF4CD /* NowFoodsTests.xctest */,
+				BB1C066F29DFFF42002FF4CD /* NowFoodsUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		BB1C065729DFFF41002FF4CD /* NowFoods */ = {
+			isa = PBXGroup;
+			children = (
+				BB1C065829DFFF41002FF4CD /* NowFoodsApp.swift */,
+				BB1C065A29DFFF41002FF4CD /* ContentView.swift */,
+				BB1C065C29DFFF42002FF4CD /* Assets.xcassets */,
+				BB1C065E29DFFF42002FF4CD /* Preview Content */,
+			);
+			path = NowFoods;
+			sourceTree = "<group>";
+		};
+		BB1C065E29DFFF42002FF4CD /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				BB1C065F29DFFF42002FF4CD /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		BB1C066829DFFF42002FF4CD /* NowFoodsTests */ = {
+			isa = PBXGroup;
+			children = (
+				BB1C066929DFFF42002FF4CD /* NowFoodsTests.swift */,
+			);
+			path = NowFoodsTests;
+			sourceTree = "<group>";
+		};
+		BB1C067229DFFF42002FF4CD /* NowFoodsUITests */ = {
+			isa = PBXGroup;
+			children = (
+				BB1C067329DFFF42002FF4CD /* NowFoodsUITests.swift */,
+				BB1C067529DFFF42002FF4CD /* NowFoodsUITestsLaunchTests.swift */,
+			);
+			path = NowFoodsUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		BB1C065429DFFF41002FF4CD /* NowFoods */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BB1C067929DFFF42002FF4CD /* Build configuration list for PBXNativeTarget "NowFoods" */;
+			buildPhases = (
+				BB1C065129DFFF41002FF4CD /* Sources */,
+				BB1C065229DFFF41002FF4CD /* Frameworks */,
+				BB1C065329DFFF41002FF4CD /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = NowFoods;
+			productName = NowFoods;
+			productReference = BB1C065529DFFF41002FF4CD /* NowFoods.app */;
+			productType = "com.apple.product-type.application";
+		};
+		BB1C066429DFFF42002FF4CD /* NowFoodsTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BB1C067C29DFFF42002FF4CD /* Build configuration list for PBXNativeTarget "NowFoodsTests" */;
+			buildPhases = (
+				BB1C066129DFFF42002FF4CD /* Sources */,
+				BB1C066229DFFF42002FF4CD /* Frameworks */,
+				BB1C066329DFFF42002FF4CD /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				BB1C066729DFFF42002FF4CD /* PBXTargetDependency */,
+			);
+			name = NowFoodsTests;
+			productName = NowFoodsTests;
+			productReference = BB1C066529DFFF42002FF4CD /* NowFoodsTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		BB1C066E29DFFF42002FF4CD /* NowFoodsUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BB1C067F29DFFF42002FF4CD /* Build configuration list for PBXNativeTarget "NowFoodsUITests" */;
+			buildPhases = (
+				BB1C066B29DFFF42002FF4CD /* Sources */,
+				BB1C066C29DFFF42002FF4CD /* Frameworks */,
+				BB1C066D29DFFF42002FF4CD /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				BB1C067129DFFF42002FF4CD /* PBXTargetDependency */,
+			);
+			name = NowFoodsUITests;
+			productName = NowFoodsUITests;
+			productReference = BB1C066F29DFFF42002FF4CD /* NowFoodsUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BB1C064D29DFFF41002FF4CD /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1420;
+				LastUpgradeCheck = 1420;
+				TargetAttributes = {
+					BB1C065429DFFF41002FF4CD = {
+						CreatedOnToolsVersion = 14.2;
+					};
+					BB1C066429DFFF42002FF4CD = {
+						CreatedOnToolsVersion = 14.2;
+						TestTargetID = BB1C065429DFFF41002FF4CD;
+					};
+					BB1C066E29DFFF42002FF4CD = {
+						CreatedOnToolsVersion = 14.2;
+						TestTargetID = BB1C065429DFFF41002FF4CD;
+					};
+				};
+			};
+			buildConfigurationList = BB1C065029DFFF41002FF4CD /* Build configuration list for PBXProject "NowFoods" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = BB1C064C29DFFF41002FF4CD;
+			productRefGroup = BB1C065629DFFF41002FF4CD /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				BB1C065429DFFF41002FF4CD /* NowFoods */,
+				BB1C066429DFFF42002FF4CD /* NowFoodsTests */,
+				BB1C066E29DFFF42002FF4CD /* NowFoodsUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		BB1C065329DFFF41002FF4CD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BB1C066029DFFF42002FF4CD /* Preview Assets.xcassets in Resources */,
+				BB1C065D29DFFF42002FF4CD /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BB1C066329DFFF42002FF4CD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BB1C066D29DFFF42002FF4CD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		BB1C065129DFFF41002FF4CD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BB1C065B29DFFF41002FF4CD /* ContentView.swift in Sources */,
+				BB1C065929DFFF41002FF4CD /* NowFoodsApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BB1C066129DFFF42002FF4CD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BB1C066A29DFFF42002FF4CD /* NowFoodsTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BB1C066B29DFFF42002FF4CD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BB1C067629DFFF42002FF4CD /* NowFoodsUITestsLaunchTests.swift in Sources */,
+				BB1C067429DFFF42002FF4CD /* NowFoodsUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		BB1C066729DFFF42002FF4CD /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = BB1C065429DFFF41002FF4CD /* NowFoods */;
+			targetProxy = BB1C066629DFFF42002FF4CD /* PBXContainerItemProxy */;
+		};
+		BB1C067129DFFF42002FF4CD /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = BB1C065429DFFF41002FF4CD /* NowFoods */;
+			targetProxy = BB1C067029DFFF42002FF4CD /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		BB1C067729DFFF42002FF4CD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		BB1C067829DFFF42002FF4CD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		BB1C067A29DFFF42002FF4CD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"NowFoods/Preview Content\"";
+				DEVELOPMENT_TEAM = PFSN649J32;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.elfaael.NowFoods;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		BB1C067B29DFFF42002FF4CD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"NowFoods/Preview Content\"";
+				DEVELOPMENT_TEAM = PFSN649J32;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.elfaael.NowFoods;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		BB1C067D29DFFF42002FF4CD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = PFSN649J32;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.elfaael.NowFoodsTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/NowFoods.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/NowFoods";
+			};
+			name = Debug;
+		};
+		BB1C067E29DFFF42002FF4CD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = PFSN649J32;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.elfaael.NowFoodsTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/NowFoods.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/NowFoods";
+			};
+			name = Release;
+		};
+		BB1C068029DFFF42002FF4CD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = PFSN649J32;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.elfaael.NowFoodsUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = NowFoods;
+			};
+			name = Debug;
+		};
+		BB1C068129DFFF42002FF4CD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = PFSN649J32;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.elfaael.NowFoodsUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = NowFoods;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		BB1C065029DFFF41002FF4CD /* Build configuration list for PBXProject "NowFoods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BB1C067729DFFF42002FF4CD /* Debug */,
+				BB1C067829DFFF42002FF4CD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BB1C067929DFFF42002FF4CD /* Build configuration list for PBXNativeTarget "NowFoods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BB1C067A29DFFF42002FF4CD /* Debug */,
+				BB1C067B29DFFF42002FF4CD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BB1C067C29DFFF42002FF4CD /* Build configuration list for PBXNativeTarget "NowFoodsTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BB1C067D29DFFF42002FF4CD /* Debug */,
+				BB1C067E29DFFF42002FF4CD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BB1C067F29DFFF42002FF4CD /* Build configuration list for PBXNativeTarget "NowFoodsUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BB1C068029DFFF42002FF4CD /* Debug */,
+				BB1C068129DFFF42002FF4CD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BB1C064D29DFFF41002FF4CD /* Project object */;
+}
