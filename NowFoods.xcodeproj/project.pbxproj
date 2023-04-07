@@ -24,6 +24,9 @@
 		BB1C068D29E00FDF002FF4CD /* Poppins-SemiBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = BB1C068629E00FDF002FF4CD /* Poppins-SemiBold.ttf */; };
 		BB1C068E29E00FDF002FF4CD /* Poppins-SemiBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = BB1C068629E00FDF002FF4CD /* Poppins-SemiBold.ttf */; };
 		BB1C068F29E00FDF002FF4CD /* Poppins-SemiBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = BB1C068629E00FDF002FF4CD /* Poppins-SemiBold.ttf */; };
+		BB29C44729E05C8800183C37 /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB29C44629E05C8800183C37 /* HomeView.swift */; };
+		BB29C44829E05C8800183C37 /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB29C44629E05C8800183C37 /* HomeView.swift */; };
+		BB29C44929E05C8800183C37 /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB29C44629E05C8800183C37 /* HomeView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -59,6 +62,7 @@
 		BB1C068529E00FDF002FF4CD /* Poppins-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Poppins-Bold.ttf"; sourceTree = "<group>"; };
 		BB1C068629E00FDF002FF4CD /* Poppins-SemiBold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Poppins-SemiBold.ttf"; sourceTree = "<group>"; };
 		BB1C069029E01023002FF4CD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		BB29C44629E05C8800183C37 /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -116,6 +120,7 @@
 				BB1C065829DFFF41002FF4CD /* NowFoodsApp.swift */,
 				BB1C065A29DFFF41002FF4CD /* ContentView.swift */,
 				BB1C068229E004EC002FF4CD /* GetStartedView.swift */,
+				BB29C44629E05C8800183C37 /* HomeView.swift */,
 				BB1C065C29DFFF42002FF4CD /* Assets.xcassets */,
 				BB1C065E29DFFF42002FF4CD /* Preview Content */,
 			);
@@ -287,6 +292,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				BB1C065B29DFFF41002FF4CD /* ContentView.swift in Sources */,
+				BB29C44729E05C8800183C37 /* HomeView.swift in Sources */,
 				BB1C068329E004EC002FF4CD /* GetStartedView.swift in Sources */,
 				BB1C065929DFFF41002FF4CD /* NowFoodsApp.swift in Sources */,
 			);
@@ -297,6 +303,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				BB1C066A29DFFF42002FF4CD /* NowFoodsTests.swift in Sources */,
+				BB29C44829E05C8800183C37 /* HomeView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -304,6 +311,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BB29C44929E05C8800183C37 /* HomeView.swift in Sources */,
 				BB1C067629DFFF42002FF4CD /* NowFoodsUITestsLaunchTests.swift in Sources */,
 				BB1C067429DFFF42002FF4CD /* NowFoodsUITests.swift in Sources */,
 			);
