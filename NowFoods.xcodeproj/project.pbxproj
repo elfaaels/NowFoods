@@ -27,6 +27,7 @@
 		BB29C44729E05C8800183C37 /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB29C44629E05C8800183C37 /* HomeView.swift */; };
 		BB29C44829E05C8800183C37 /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB29C44629E05C8800183C37 /* HomeView.swift */; };
 		BB29C44929E05C8800183C37 /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB29C44629E05C8800183C37 /* HomeView.swift */; };
+		BB31D94D2A10712000F1D357 /* DetailsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB31D94C2A10712000F1D357 /* DetailsView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -63,6 +64,7 @@
 		BB1C068629E00FDF002FF4CD /* Poppins-SemiBold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Poppins-SemiBold.ttf"; sourceTree = "<group>"; };
 		BB1C069029E01023002FF4CD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
 		BB29C44629E05C8800183C37 /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
+		BB31D94C2A10712000F1D357 /* DetailsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailsView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -118,6 +120,7 @@
 				BB1C068429E00FDF002FF4CD /* Poppins-Regular.ttf */,
 				BB1C068629E00FDF002FF4CD /* Poppins-SemiBold.ttf */,
 				BB1C065829DFFF41002FF4CD /* NowFoodsApp.swift */,
+				BB31D94C2A10712000F1D357 /* DetailsView.swift */,
 				BB1C065A29DFFF41002FF4CD /* ContentView.swift */,
 				BB1C068229E004EC002FF4CD /* GetStartedView.swift */,
 				BB29C44629E05C8800183C37 /* HomeView.swift */,
@@ -292,6 +295,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				BB1C065B29DFFF41002FF4CD /* ContentView.swift in Sources */,
+				BB31D94D2A10712000F1D357 /* DetailsView.swift in Sources */,
 				BB29C44729E05C8800183C37 /* HomeView.swift in Sources */,
 				BB1C068329E004EC002FF4CD /* GetStartedView.swift in Sources */,
 				BB1C065929DFFF41002FF4CD /* NowFoodsApp.swift in Sources */,
